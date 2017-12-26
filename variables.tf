@@ -23,7 +23,7 @@ variable "aws_secret_key" {
 }
 */
 variable "credentialsfile" {
-  default = "/Users/giuseppe/.aws/credentials" #replace your home directory
+  default = "/Users/vj_home/.aws/credentials" #replace your home directory
   description = "where your access and secret_key are stored, you create the file when you run the aws config"
 }
 
